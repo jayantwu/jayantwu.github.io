@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="测试2," />
+  <meta name="keywords" content="Hexo, NexT" />
 
 
 
@@ -79,18 +79,17 @@
 
 
 
-<meta name="description" content="测试新建文章">
-<meta name="keywords" content="测试2">
+<meta name="description" content="user_class2.pyclass User():    def init(self, first_name, last_name, sex, age):        self.first_name = first_name        self.last_name = last_name        self.sex = sex        self.age = age">
 <meta property="og:type" content="article">
-<meta property="og:title" content="test 2">
-<meta property="og:url" content="https://github.com/jayantwu/2017/12/05/test-2/index.html">
+<meta property="og:title" content="Day two">
+<meta property="og:url" content="https://github.com/jayantwu/2017/12/06/Day-two/index.html">
 <meta property="og:site_name" content="Jayang&#39;blog">
-<meta property="og:description" content="测试新建文章">
+<meta property="og:description" content="user_class2.pyclass User():    def init(self, first_name, last_name, sex, age):        self.first_name = first_name        self.last_name = last_name        self.sex = sex        self.age = age">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2017-12-05T12:41:30.812Z">
+<meta property="og:updated_time" content="2017-12-06T13:57:05.618Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="test 2">
-<meta name="twitter:description" content="测试新建文章">
+<meta name="twitter:title" content="Day two">
+<meta name="twitter:description" content="user_class2.pyclass User():    def init(self, first_name, last_name, sex, age):        self.first_name = first_name        self.last_name = last_name        self.sex = sex        self.age = age">
 
 
 
@@ -120,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="https://github.com/jayantwu/2017/12/05/test-2/"/>
+  <link rel="canonical" href="https://github.com/jayantwu/2017/12/06/Day-two/"/>
 
 
 
 
 
-  <title>test 2 | Jayang'blog</title>
+  <title>Day two | Jayang'blog</title>
   
 
 
@@ -233,7 +232,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://github.com/jayantwu/2017/12/05/test-2/">
+    <link itemprop="mainEntityOfPage" href="https://github.com/jayantwu/2017/12/06/Day-two/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="jayant wu">
@@ -250,7 +249,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">test 2</h1>
+          <h1 class="post-title" itemprop="name headline">Day two</h1>
         
 
         <div class="post-meta">
@@ -262,8 +261,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-12-05T20:40:10+08:00">
-                2017-12-05
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-12-06T21:48:19+08:00">
+                2017-12-06
               </time>
             
 
@@ -300,7 +299,33 @@
       
 
       
-        <p>测试新建文章</p>
+        <p>user_class2.py<br>class User():<br>    def <strong>init</strong>(self, first_name, last_name, sex, age):<br>        self.first_name = first_name<br>        self.last_name = last_name<br>        self.sex = sex<br>        self.age = age<br>        self.login_attempts = 0</p>
+<pre><code>def describe_user(self):
+    print(&quot;the profile:&quot;)
+    print(self.first_name.title() + self.last_name.title() +
+          &apos;\n&apos; + self.sex + &apos;\n&apos; + str(self.age))
+
+def greet_user(self):
+    print(&quot;Hello, &quot; + self.first_name.title() + self.last_name.title())
+
+def increment_login_attempts(self):
+    self.login_attempts += 1
+
+def reset_login_attempts(self):
+    self.login_attempts = 0
+</code></pre><p>admin_class2.py<br>class Privileges():<br>    def <strong>init</strong>(self, privileges=[]):<br>        self.privileges = privileges</p>
+<pre><code>def show_privileges(self, privileges):
+    print(&quot;The privileges of admin is: &quot;)
+    for privilege in privileges:
+        print(privilege)
+</code></pre><p>class Admin(User):</p>
+<pre><code>def __init__(self, first_name, last_name, sex, age):
+    super().__init__(first_name, last_name, sex, age)
+    self.privileges = Privileges()
+</code></pre><p>admin_wujiayang2.py</p>
+<p>#from user_class2 import User</p>
+<p>from admin_class2 import Admin</p>
+<p>admin = Admin(‘jiayang’, ‘wu’, ‘man’, 24)<br>privileges = [‘can add post’, ‘can delete post’, ‘can ban user’]<br>admin.privileges.show_privileges(privileges)</p>
 
       
     </div>
@@ -316,12 +341,6 @@
 
     <footer class="post-footer">
       
-        <div class="post-tags">
-          
-            <a href="/tags/测试2/" rel="tag"># 测试2</a>
-          
-        </div>
-      
 
       
       
@@ -331,8 +350,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/12/05/my-first-blog/" rel="next" title="my-first-blog">
-                <i class="fa fa-chevron-left"></i> my-first-blog
+              <a href="/2017/12/05/test-2/" rel="next" title="test 2">
+                <i class="fa fa-chevron-left"></i> test 2
               </a>
             
           </div>
@@ -340,10 +359,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/12/06/Day-two/" rel="prev" title="Day two">
-                Day two <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
